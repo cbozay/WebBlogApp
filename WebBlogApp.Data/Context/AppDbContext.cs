@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 using WebBlogApp.Entity.Entities;
 
 namespace WebBlogApp.Data.Context
@@ -14,9 +15,17 @@ namespace WebBlogApp.Data.Context
 
         public DbSet<Article> Articles { get; set; }    
         public DbSet<Category> Categories { get; set; }    
-        public DbSet<Image> Images { get; set; }    
-        
-        
+        public DbSet<Image> Images { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            //Bu metod Assemly deki IEntityTypeConfiguration<> dan türeyen sınıfların
+            //tüm metodlarını bulup DbContext in içerisinde boş olarak bulunan OnModelCreating
+            //içerisine yazar/override eder... Böyle yaptık çünkü daha temiz ve modüler bir
+            //kod sağlamaktadır...
+        }
+
     }
 }
 //DbContext üzerine gelip ctrl+. bastığımızda iki adet 
