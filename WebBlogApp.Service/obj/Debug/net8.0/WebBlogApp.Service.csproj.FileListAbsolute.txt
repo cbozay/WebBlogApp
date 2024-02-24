@@ -1,0 +1,12 @@
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\bin\Debug\net8.0\WebBlogApp.Service.deps.json
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\bin\Debug\net8.0\WebBlogApp.Service.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\bin\Debug\net8.0\WebBlogApp.Service.pdb
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\obj\Debug\net8.0\WebBlogApp.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\obj\Debug\net8.0\WebBlogApp.Service.AssemblyInfoInputs.cache
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\obj\Debug\net8.0\WebBlogApp.Service.AssemblyInfo.cs
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\obj\Debug\net8.0\WebBlogApp.Service.csproj.CoreCompileInputs.cache
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\obj\Debug\net8.0\WebBlogApp.Service.sourcelink.json
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\obj\Debug\net8.0\WebBlogApp.Service.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\obj\Debug\net8.0\refint\WebBlogApp.Service.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\obj\Debug\net8.0\WebBlogApp.Service.pdb
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\obj\Debug\net8.0\ref\WebBlogApp.Service.dll

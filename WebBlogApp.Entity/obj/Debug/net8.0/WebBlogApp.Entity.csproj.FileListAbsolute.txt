@@ -1,0 +1,16 @@
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\bin\Debug\net8.0\WebBlogApp.Entity.deps.json
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\bin\Debug\net8.0\WebBlogApp.Entity.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\bin\Debug\net8.0\WebBlogApp.Entity.pdb
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\bin\Debug\net8.0\WebBlogApp.Core.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\bin\Debug\net8.0\WebBlogApp.Core.pdb
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\obj\Debug\net8.0\WebBlogApp.Entity.csproj.AssemblyReference.cache
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\obj\Debug\net8.0\WebBlogApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\obj\Debug\net8.0\WebBlogApp.Entity.AssemblyInfoInputs.cache
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\obj\Debug\net8.0\WebBlogApp.Entity.AssemblyInfo.cs
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\obj\Debug\net8.0\WebBlogApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\obj\Debug\net8.0\WebBlogApp.Entity.sourcelink.json
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\obj\Debug\net8.0\WebBlogApp.Entity.csproj.CopyComplete
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\obj\Debug\net8.0\WebBlogApp.Entity.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\obj\Debug\net8.0\refint\WebBlogApp.Entity.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\obj\Debug\net8.0\WebBlogApp.Entity.pdb
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Entity\obj\Debug\net8.0\ref\WebBlogApp.Entity.dll

@@ -9,7 +9,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace WebBlogApp.Entity.Entities
 {
-    public class Article:EntityBase,IEntityBase
+    public class Article:EntityBase
     {
         public string Title { get; set; }
         public string Content { get; set; }
@@ -22,4 +22,7 @@ namespace WebBlogApp.Entity.Entities
 }
 //Bir class birden fazla interfaceden miras alabilmekteyken, sadece bir class dan miras alabilmektedir.
 //Bu durumda class ve interfaceler miras alınacaksa şayet önce miras alınan class yazılır daha sonra interfaceler yazılmalıdır.
+//Yani public class Article:EntityBase,IEntityBase şeklinde olmalıdır. Tabi biz IEntityBase yi EntityBase class ında miras
+//aldığımızdan dolayı tekrar tekrar miras almıyoruz. Bu nedenle Article class ı içerisinde sadece EntityBase yi miras alırsak şayet
+//IEntityBase yi de miras almış oluruz...
 

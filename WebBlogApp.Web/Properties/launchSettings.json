@@ -9,7 +9,7 @@
       "dotnetRunMessages": true,
       "applicationUrl": "http://localhost:5243"
     },
-    "https": {
+    "WebBlogApp": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
