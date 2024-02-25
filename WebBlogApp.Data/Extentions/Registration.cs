@@ -1,12 +1,15 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebBlogApp.Data.Context;
 using WebBlogApp.Data.Repositories.Abstractions;
 using WebBlogApp.Data.Repositories.Concretes;
+using WebBlogApp.Data.UnitOfWorks;
 
 namespace WebBlogApp.Data.Extentions
 {
@@ -19,6 +22,8 @@ namespace WebBlogApp.Data.Extentions
             //yapı kurduğumuzdan dolayı IRepository içerisine gelen <T> yi
             //services.AddScoped(IRepository<T>, Repository<T>); şeklinde belirttiğimizde
             //bizden 'T' entity class ını isteyeceğinden, <T> yi typeof() metoduyla almış olduk.
+            services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
     }
 }

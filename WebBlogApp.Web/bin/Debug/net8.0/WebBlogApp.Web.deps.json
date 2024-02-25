@@ -9,7 +9,6 @@
       "WebBlogApp.Web/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "8.0.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
           "WebBlogApp.Data": "1.0.0"
         },
         "runtime": {
