@@ -11,7 +11,7 @@ builder.Services.AddDataLayer(builder.Configuration);
 builder.Services.AddServices();
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 var app = builder.Build();
 
@@ -30,8 +30,28 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Home}/{action=Index}/{id?}");
+//app.MapDefaultControllerRoute();
+//Yukarýdaki route lerin her ikisi de ayný þeyi ifade eder. 
+//Ýkincisi birincisinin sadeleþtirilmiþ halidir. Bunlardan ikinisi de 
+//kullanmayýp ui-admin route ayrýmý yapacaðýmýzdan aþaðýdaki custom
+//route yapýsýndan devam ediyoruz...
+#pragma warning disable ASP0014 //Aþaðýdaki yeþil çizgi önerisini disable yaptýk...
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapAreaControllerRoute(
+        name:"Admin",
+        areaName:"Admin",
+        pattern:"Admin/{controller=Home}/{action=Index}/{id?}");
+    //MapAreaControllerRoute üzerine fareyle geldiðimizde benden
+    //name,areaName ve pattern bilgilerini girmemi zorunlu tutmaktadýr.
+    //Bu parametreleri girmediðimiz müddetçe kýrmýzý çizgi görünür.
+    //Köþeli parantez içerisinde görünen parametreleri de zorunlu olmayýp
+    //opsiyoneldir.
+
+    endpoints.MapDefaultControllerRoute();
+});
 
 app.Run();
