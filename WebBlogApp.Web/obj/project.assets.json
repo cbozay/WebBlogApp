@@ -1527,6 +1527,20 @@
         "runtime": {
           "bin/placeholder/WebBlogApp.Entity.dll": {}
         }
+      },
+      "WebBlogApp.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "WebBlogApp.Data": "1.0.0",
+          "WebBlogApp.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WebBlogApp.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebBlogApp.Service.dll": {}
+        }
       }
     }
   },
@@ -4090,12 +4104,18 @@
       "type": "project",
       "path": "../WebBlogApp.Entity/WebBlogApp.Entity.csproj",
       "msbuildProject": "../WebBlogApp.Entity/WebBlogApp.Entity.csproj"
+    },
+    "WebBlogApp.Service/1.0.0": {
+      "type": "project",
+      "path": "../WebBlogApp.Service/WebBlogApp.Service.csproj",
+      "msbuildProject": "../WebBlogApp.Service/WebBlogApp.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore.Design >= 8.0.2",
-      "WebBlogApp.Data >= 1.0.0"
+      "WebBlogApp.Data >= 1.0.0",
+      "WebBlogApp.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4127,6 +4147,9 @@
           "projectReferences": {
             "C:\\Users\\cboza\\OneDrive\\Masaüstü\\WebBlogApp\\WebBlogApp.Data\\WebBlogApp.Data.csproj": {
               "projectPath": "C:\\Users\\cboza\\OneDrive\\Masaüstü\\WebBlogApp\\WebBlogApp.Data\\WebBlogApp.Data.csproj"
+            },
+            "C:\\Users\\cboza\\OneDrive\\Masaüstü\\WebBlogApp\\WebBlogApp.Service\\WebBlogApp.Service.csproj": {
+              "projectPath": "C:\\Users\\cboza\\OneDrive\\Masaüstü\\WebBlogApp\\WebBlogApp.Service\\WebBlogApp.Service.csproj"
             }
           }
         }

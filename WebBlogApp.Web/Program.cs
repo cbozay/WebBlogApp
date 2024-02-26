@@ -1,12 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 using WebBlogApp.Data.Context;
 using WebBlogApp.Data.Extentions;
+using WebBlogApp.Service.Services.Extentions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDataLayer(builder.Configuration);
 //Yazdýðýmýz bu extention metod içerisinde 'configuration'
 //metodunu kullanacaðýmýzdan ötürü parametre olarak yolladýk.
+builder.Services.AddServices();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

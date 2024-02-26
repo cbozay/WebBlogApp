@@ -10,3 +10,11 @@ C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\obj\Debug\net8.
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\obj\Debug\net8.0\refint\WebBlogApp.Service.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\obj\Debug\net8.0\WebBlogApp.Service.pdb
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\obj\Debug\net8.0\ref\WebBlogApp.Service.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\bin\Debug\net8.0\WebBlogApp.Core.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\bin\Debug\net8.0\WebBlogApp.Data.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\bin\Debug\net8.0\WebBlogApp.Entity.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\bin\Debug\net8.0\WebBlogApp.Data.pdb
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\bin\Debug\net8.0\WebBlogApp.Entity.pdb
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\bin\Debug\net8.0\WebBlogApp.Core.pdb
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\obj\Debug\net8.0\WebBlogApp.Service.csproj.AssemblyReference.cache
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Service\obj\Debug\net8.0\WebBlogApp.Service.csproj.CopyComplete
