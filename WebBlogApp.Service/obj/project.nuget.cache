@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ysHB1KaSt9tOfxHhGFOERYVd5pCMpIiTKDmXy1+0BcZT9LD4HswuIIG/cSbKI0kIcLDVcqyuKVct3jsup2ewRQ==",
+  "dgSpecHash": "e9Lbyew6RzlNHAFhoq7tzJlSVnogpGYw751IxaBNqA82xq8cr6Ol9PrTjE7O2X+IaZsOox8TgBOLwuoYOkQ5ag==",
   "success": true,
   "projectFilePath": "C:\\Users\\cboza\\OneDrive\\Masaüstü\\WebBlogApp\\WebBlogApp.Service\\WebBlogApp.Service.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\cboza\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

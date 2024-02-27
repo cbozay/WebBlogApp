@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "G6Iz62IPUuvwKy5P/v8HyEXSzkrCahq6znCxg7hkp8iuYB+GKFz1gFZ98HvoE7wWIPXYoOoudnmDFSaJ4ViVtw==",
+  "dgSpecHash": "Ri3gsRWzEPIKcx5cawPQF/pobyFLc06Ez2/MJPubNk5YEfV4MODtJVNDje5fmTqy5WpyN+wgK5sotrg/mnuAqA==",
   "success": true,
   "projectFilePath": "C:\\Users\\cboza\\OneDrive\\Masaüstü\\WebBlogApp\\WebBlogApp.Web\\WebBlogApp.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\cboza\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
