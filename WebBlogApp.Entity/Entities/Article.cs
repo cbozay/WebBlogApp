@@ -16,8 +16,10 @@ namespace WebBlogApp.Entity.Entities
         public int ViewCount{ get; set; }
         public Guid CategoryId{ get; set; }
         public Category Category { get; set; }
-        public Guid ImageId { get; set; }
+        public Guid? ImageId { get; set; }
         public Image Image { get; set; }
+        public Guid UserId { get; set; }//Bu ve aşağıdaki navigation property ler 1 makalenin 1 tane user ı olmasını sağlar...
+        public AppUser User { get; set; }
     }
 }
 //Bir class birden fazla interfaceden miras alabilmekteyken, sadece bir class dan miras alabilmektedir.

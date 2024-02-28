@@ -62,7 +62,9 @@ namespace WebBlogApp.Data.Mappings
                 PhoneNumberConfirmed = true,
                 EmailConfirmed = true,
                 FirstName = "Kenan",
-                LastName = "Kahraman"
+                LastName = "Kahraman",
+                ImageId = Guid.Parse("EFF96BAC-314D-4631-AED3-46961B5089D9"),
+
             };
             superAdmin.PasswordHash = CreatePasswordHash(superAdmin,"123456");
 
@@ -78,7 +80,8 @@ namespace WebBlogApp.Data.Mappings
                 PhoneNumberConfirmed = false,
                 EmailConfirmed = false,
                 FirstName = "Ali",
-                LastName = "Candan"
+                LastName = "Candan",
+                ImageId = Guid.Parse("EFF96BAC-314D-4631-AED3-46961B5089D9"),
             };
             admin.PasswordHash = CreatePasswordHash(superAdmin, "654321");
 

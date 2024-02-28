@@ -11,5 +11,8 @@ namespace WebBlogApp.Entity.Entities
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public Guid ImageId { get; set; }
+        public Image Image { get; set; }
+        public ICollection<Article> Articles { get; set; }//1 user ın çok makalesi olmasını sağlayan navigation property...
     }
 }
