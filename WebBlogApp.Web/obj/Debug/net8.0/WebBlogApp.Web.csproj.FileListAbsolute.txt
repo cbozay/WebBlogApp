@@ -192,8 +192,6 @@ C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\re
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cors.dll
-C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -289,8 +287,6 @@ C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\re
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.Http.dll
-C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Core.dll
-C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
@@ -304,7 +300,6 @@ C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\re
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.ObjectPool.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.Primitives.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\refs\Microsoft.JSInterop.dll
@@ -481,3 +476,9 @@ C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\Mi
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\obj\Debug\net8.0\WebBlogApp.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\cboza\OneDrive\Masaüstü\WebBlogApp\WebBlogApp.Web\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

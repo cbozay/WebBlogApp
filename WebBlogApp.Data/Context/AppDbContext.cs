@@ -1,11 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 using WebBlogApp.Entity.Entities;
 
 namespace WebBlogApp.Data.Context
 {
-    public class AppDbContext : DbContext
-    {
+    public class AppDbContext : IdentityDbContext<AppUser,AppRole,Guid,AppUserClaim,AppUserRole,AppUserLogin,AppRoleClaim,AppUserToken>
+    {//Identity entity lerini oluşturduktan sonra yukarıda 3. overload ını kullandık...
         protected AppDbContext()
         {
         }
@@ -19,6 +20,7 @@ namespace WebBlogApp.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);//Bunu IdentityDbContext integrasyonundan sonra ekledik. Yoksa migration sırasında hata alınır...
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             //Bu metod Assemly deki IEntityTypeConfiguration<> dan türeyen sınıfların
             //tüm metodlarını bulup DbContext in içerisinde boş olarak bulunan OnModelCreating
